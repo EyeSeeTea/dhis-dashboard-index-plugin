@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-09-02T14:56:04.178Z\n"
+"PO-Revision-Date: 2026-09-02T14:56:04.179Z\n"
+
+msgid ""
+"Use a plugin dashboardItemId query param to test the plugin, e.g. "
+"{{example}}"
+msgstr ""
+"Use a plugin dashboardItemId query param to test the plugin, e.g. "
+"{{example}}"
+
+msgid "Install the plugin in the test instance."
+msgstr "Install the plugin in the test instance."
+
+msgid "Add it to the dashboard to test."
+msgstr "Add it to the dashboard to test."
+
+msgid "Get the dashboardItemId via: {{api}}"
+msgstr "Get the dashboardItemId via: {{api}}"
+
+msgid ""
+"Use Datastore Management with namespace: {{namespace}} to change the plugin "
+"configs."
+msgstr ""
+"Use Datastore Management with namespace: {{namespace}} to change the plugin "
+"configs."
+
+msgid "To apply the config changes reload the page."
+msgstr "To apply the config changes reload the page."
+
+msgid "View mode"
+msgstr "View mode"
+
+msgid "Edit mode"
+msgstr "Edit mode"
+
+msgid "Configuration"
+msgstr "Configuration"
+
+msgid "Select which dashboard item types should be listed in the index."
+msgstr "Select which dashboard item types should be listed in the index."
+
+msgid "Could not save configuration"
+msgstr "Could not save configuration"
+
+msgid "At least one item type must stay enabled"
+msgstr "At least one item type must stay enabled"
+
+msgid ""
+"This is taking longer than expected. You may not have view access to the "
+"\"settings\" or \"savedObjects\" keys in the \"{{namespace}}\" datastore "
+"namespace."
+msgstr ""
+"This is taking longer than expected. You may not have view access to the "
+"\"settings\" or \"savedObjects\" keys in the \"{{namespace}}\" datastore "
+"namespace."
+
+msgid "Error"
+msgstr "Error"
+
+msgid "No data available"
+msgstr "No data available"
+
+msgid "No dashboard items match the current configuration."
+msgstr "No dashboard items match the current configuration."
+
+msgid "Text (with markdown header)"
+msgstr "Text (with markdown header)"
+
+msgid "Text (plain)"
+msgstr "Text (plain)"
+
+msgid "Visualizations"
+msgstr "Visualizations"
+
+msgid "Event visualizations"
+msgstr "Event visualizations"
+
+msgid "Event charts"
+msgstr "Event charts"
+
+msgid "Maps"
+msgstr "Maps"
+
+msgid "Event reports"
+msgstr "Event reports"
+
+msgid "Reports"
+msgstr "Reports"
+
+msgid "Resources"
+msgstr "Resources"
+
+msgid "Messages"
+msgstr "Messages"

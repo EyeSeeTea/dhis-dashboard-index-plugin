@@ -1,0 +1,39 @@
+{
+    "name": "dashboard-index-plugin",
+    "version": "0.1.0",
+    "description": "",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "packageManager": "yarn@4.12.0",
+    "scripts": {
+        "build": "d2-app-scripts build",
+        "start": "d2-app-scripts start",
+        "test": "d2-app-scripts test",
+        "deploy": "yarn build && d2-app-scripts deploy",
+        "prettify": "prettier \"./**/*.{js,jsx,json,css,ts,tsx}\" --write",
+        "lint": "eslint src --ext .ts,.tsx",
+        "postinstall": "corepack enable 2>/dev/null || true && husky"
+    },
+    "dependencies": {
+        "@dhis2/app-runtime": "^3.17.3",
+        "@dhis2/app-service-datastore": "^1.0.0-beta.3",
+        "@dhis2/d2-i18n": "^1.2.0",
+        "@dhis2/ui": "^10.17.0",
+        "react": "^18",
+        "react-dom": "^18",
+        "styled-components": "^6.4.3"
+    },
+    "devDependencies": {
+        "@dhis2/cli-app-scripts": "^12.11.0-alpha.1",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.0.0",
+        "@types/react": "^18",
+        "@typescript-eslint/eslint-plugin": "^5.15.0",
+        "@typescript-eslint/parser": "^5.15.0",
+        "eslint": "^8.11.0",
+        "eslint-config-standard": "^16.0.3",
+        "husky": "^9.1.7",
+        "prettier": "^3.3.3",
+        "typescript": "^5.4.5"
+    }
+}
