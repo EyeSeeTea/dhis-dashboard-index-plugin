@@ -12,6 +12,7 @@
         "deploy": "yarn build && d2-app-scripts deploy",
         "prettify": "prettier \"./**/*.{js,jsx,json,css,ts,tsx}\" --write",
         "lint": "eslint src --ext .ts,.tsx",
+        "localize": "d2-app-scripts i18n extract --path ./src --output ./i18n",
         "postinstall": "corepack enable 2>/dev/null || true && husky"
     },
     "dependencies": {
