@@ -1,0 +1,12 @@
+name: "Shared Master Workflow"
+
+on:
+  push:
+    branches: ["main", "development"]
+  pull_request:
+    branches: [ "main", "development" ]
+  workflow_dispatch:
+
+jobs:
+  master-workflow:
+    uses: EyeSeeTea/github-workflows/.github/workflows/master.yml@master
